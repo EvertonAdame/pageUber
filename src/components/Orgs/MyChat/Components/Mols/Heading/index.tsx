@@ -35,7 +35,7 @@ export const Heading = memo(
     const { recievedMessage, resetRecievedMessage } = useChat();
     const { endDoubt, buttonIsLoading } = useDoubt();
     const {
-      stopWatchTime,
+
       handleSetStopwatchValue,
       handleSetCountdownValue,
       toggleCountdown,
