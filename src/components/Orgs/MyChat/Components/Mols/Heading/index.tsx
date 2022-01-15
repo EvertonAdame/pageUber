@@ -14,7 +14,7 @@ import { UserStatus } from 'components/Atoms/UserStatus';
 import { Loading } from 'components/Atoms/Loading';
 import { DropdownMenu } from '../../Atoms/DropdownMenu';
 import {
-  Container, ChatHeader, UserInfoContainer, TimerContainer, EndDoubtButton, ImgChamadaVideo
+  Container, ChatHeader, UserInfoContainer, EndDoubtButton, ImgChamadaVideo
 } from './styles';
 
 type HeadingProps = {
@@ -35,7 +35,6 @@ export const Heading = memo(
     const { recievedMessage, resetRecievedMessage } = useChat();
     const { endDoubt, buttonIsLoading } = useDoubt();
     const {
-      formatedStopwatchTime,
       stopWatchTime,
       handleSetStopwatchValue,
       handleSetCountdownValue,
